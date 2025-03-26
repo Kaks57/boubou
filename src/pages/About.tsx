@@ -17,7 +17,7 @@ const About: React.FC = () => {
             <div className="relative">
               <div className="aspect-square overflow-hidden rounded-lg shadow-lg animate-fade-in">
                 <img 
-                  src="https://images.unsplash.com/photo-1649972904349-6e44c42644a7?q=80&w=1200&auto=format&fit=crop" 
+                  src="/dame.jpeg" 
                   alt="EDK Empire" 
                   className="object-cover w-full h-full hover:scale-105 transition-transform duration-700"
                 />

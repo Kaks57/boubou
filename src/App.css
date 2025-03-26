@@ -1,0 +1,62 @@
+
+#root {
+  width: 100%;
+  margin: 0 auto;
+  font-family: 'Inter', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Cursor styles */
+.cursor-pointer {
+  cursor: pointer;
+}
+
+/* Add transitions for hover effects */
+a, button {
+  transition: all 0.3s ease;
+}
+
+/* For scrolling animations */
+.opacity-0 {
+  opacity: 0;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: hsl(var(--secondary));
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(var(--muted-foreground));
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(var(--primary));
+}
+
+/* Image enhancements */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Image hover effect for products */
+.product-image-container {
+  overflow: hidden;
+}
+
+.product-image-container img {
+  transition: transform 0.5s ease-in-out;
+}
+
+.product-image-container:hover img {
+  transform: scale(1.05);
+}

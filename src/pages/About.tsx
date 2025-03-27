@@ -13,17 +13,19 @@ const About: React.FC = () => {
       <main className="pt-28 pb-20">
         <div className="container-tight">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-            {/* Image Section */}
-            <div className="relative">
-              <div className="aspect-square overflow-hidden rounded-lg shadow-lg animate-fade-in">
-                <img 
-                  src="/dame.jpeg" 
-                  alt="EDK Empire" 
-                  className="object-cover w-full h-full hover:scale-105 transition-transform duration-700"
-                />
-              </div>
-              <div className="absolute -bottom-6 -right-6 h-3/4 w-3/4 border-2 border-primary rounded-lg -z-10 animate-slide-up animate-delay-300"></div>
-            </div>
+           {/* Image Section */}
+            <div className="relative w-full">  
+            <div className="overflow-hidden rounded-lg shadow-lg animate-fade-in h-[850px]"> {/* Augmente la hauteur ici */}
+            <img 
+            src="/dame.jpeg" 
+            alt="EDK Empire" 
+            className="object-cover w-full h-full hover:scale-105 transition-transform duration-700"
+            />
+  </div>
+  <div className="absolute -bottom-6 -right-6 h-[550px] w-3/4 border-2 border-primary rounded-lg -z-10 animate-slide-up animate-delay-300"></div>
+</div>
+
+
             
             {/* Text Section */}
             <div className="space-y-6">

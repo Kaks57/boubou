@@ -1,9 +1,7 @@
-
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { CountryDisplay } from '@/components/CountrySelector';
-import { Logo } from '@/components/Logo';
 import { Menu, X, Phone, Mail } from 'lucide-react';
 
 export const Navbar: React.FC = () => {
@@ -35,7 +33,7 @@ export const Navbar: React.FC = () => {
       <div className="container-tight">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <Logo />
+          <img src="/logo.jpg" alt="Logo" className="h-10" />
           
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-6">

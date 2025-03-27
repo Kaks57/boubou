@@ -33,8 +33,10 @@ export const Navbar: React.FC = () => {
       <div className="container-tight">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <img src="/edk.png" alt="Logo" className="h-20" />
-          
+<Link to="/index">
+  <img src="/edk.png" alt="Logo" className="h-20 cursor-pointer" />
+</Link>
+
           
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-6">

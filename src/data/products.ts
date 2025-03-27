@@ -63,7 +63,7 @@ export const products: Product[] = [
     name: 'Boubou Africain ',
     shortDescription: 'Design contemporain avec touches traditionnelles',
     description: "Une interprétation moderne du boubou traditionnel pour homme. Coupe ajustée avec des motifs géométriques subtils et une finition impeccable. Parfait pour un style élégant au quotidien ou pour des événements semi-formels.",
-    basePrice: 35000, // 35,000 CFA
+    basePrice: 175000, // 35,000 CFA
     images: [
      "/WhatsApp Image 2025-03-24 at 17.03.49 (1).jpeg"
     ],

@@ -83,15 +83,18 @@ export const Navbar: React.FC = () => {
         <div className="md:hidden bg-background border-t mt-3 animate-slide-down">
           <div className="container-tight py-4">
             <nav className="flex flex-col space-y-4">
-              <Link to="/" className="py-2 text-foreground hover:text-primary transition-colors">
-                Accueil
-              </Link>
-              <Link to="/products" className="py-2 text-foreground hover:text-primary transition-colors">
-                Collections
-              </Link>
-              <Link to="/about" className="py-2 text-foreground hover:text-primary transition-colors">
-                À propos
-              </Link>
+            <Link to="/" className="text-foreground hover:text-primary transition-colors">
+              Accueil
+            </Link>
+            <Link to="/products" className="text-foreground hover:text-primary transition-colors">
+              Collections
+            </Link>
+            <Link to="/about" className="text-foreground hover:text-primary transition-colors">
+              À propos
+            </Link>
+            <Link to="/private-sale" className="text-foreground hover:text-primary transition-colors">
+              Vente privée
+            </Link>
               <div className="pt-2 border-t border-border">
                 <CountryDisplay />
               </div>

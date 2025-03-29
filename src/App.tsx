@@ -10,7 +10,7 @@ import Products from "./pages/Products";
 import ProductDetail from "./pages/ProductDetail";
 import NotFound from "./pages/NotFound";
 import About from "./pages/About";
-
+import VentePrivee from "./pages/ventreprivee";
 
 const queryClient = new QueryClient();
 
@@ -28,6 +28,7 @@ const App = () => (
             <Route path="/product/:id" element={<ProductDetail />} />
             <Route path="/about" element={<About />} />
             <Route path="*" element={<NotFound />} />
+            <Route path="/private-sale" element={<VentePrivee/>} />
           </Routes>
         </BrowserRouter>
       </TooltipProvider>

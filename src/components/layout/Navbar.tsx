@@ -49,6 +49,9 @@ export const Navbar: React.FC = () => {
             <Link to="/about" className="text-foreground hover:text-primary transition-colors">
               À propos
             </Link>
+            <Link to="/private-sale" className="text-foreground hover:text-primary transition-colors">
+              Vente privée
+            </Link>
             <CountryDisplay />
           </nav>
           
